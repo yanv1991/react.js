@@ -7,7 +7,7 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 server.use(express.static(__dirname + '/public'));
 
-var port = 8080;
+var port = 3000;
 server.listen(port, function() {
     console.log('server listening on port ' + port);
 });
